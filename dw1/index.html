@@ -1,0 +1,150 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head> 
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <!-- Google fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+    <!-- LINK DE ICONOS -->
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"rel="stylesheet" >
+    <!-- LINK A BOOTSTRAP -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+  <!-- CSS OPCION RECOMENDADA!!-->
+   <link rel="stylesheet" href="./css/styles.css">
+   <!-- etiqueta  NO RECOMENDADA -->
+      <!--  <style>
+            p {  
+                color: rgb(66, 0, 128);
+            }
+    </style> -->
+    <title>Bianca Fernandez</title>
+
+</head>
+<body>
+
+    <header class="barra-de-navegacion"> <!-- encabezado -->
+        <!-- titulo por orden de jerarquia 
+        <h1>Titulo Principal</h1>
+        <h2>Titulo Secundario</h2>
+        <h3>Titulo menor</h3>
+        <h4>Titulo menor</h4>
+        <h5>Titulo menor</h5>
+        <h6>Titulo menor</h6>
+        -->
+        <h1 class="titulo">Brawlstars</h1>
+
+        <nav>  <!-- barra de navegacion -->
+            <ul class="nav">
+                <!-- links sobre texto,"rutas relativas"-->
+                <a href="index.html" class="link-home" target="_blank"><li>home</li></a>
+                <a href="./pages/productos.html" class="link-home" target="_blank"><li>productos</li></a>
+                <a href="./pages/contactos.html" class="link-home" target="_blank"><li>contactos</li></a>
+                
+            </ul>
+        </nav>  
+    </header>
+    <!-- carousel de fotos de bootstrap -->
+    <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./img/OIP.jfif" class="d-block w-100" alt="paisaje">
+          </div>
+          <div class="carousel-item">
+            <img src="./img/26898711922_ec0f7fcc35_b.jpg" class="d-block w-100" alt="campito">
+          </div>
+          <div class="carousel-item">
+            <img src="..." class="d-block w-100" alt="...">
+          </div>
+        </div>
+      </div>
+
+   <p class="parrafo1">¿Cómo me va yendo con la pagina?
+    Y estoy viendo la clase 8  y estoy viendo bootstrap a lo bellaco
+   </p>
+    
+    <!-- links -->
+
+    <a href="https://www.google.com.ar/?hl=es-419" target="_blank"> click aca</a>
+
+    <ol>
+       <li>Pelar los ajos y picarlos junto al perejil.</li>
+       <li>Filetear la cantidad de pollo que quieras e introducirlas 
+                en la mezcla que hicimos anteriormente.</li>
+     
+   </ol>
+  <!-- seccion para los productos -->
+   <!--<section class="contenedor-productos"> 
+        
+    <div class="card">
+        <img class="img-producto" src="./img/descarga.png" alt="Mi main">
+             <p class="titulo-producto">Mandy</p> 
+        
+            
+             <p class="descripcion-producto"> bla bla bla Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi repudiandae ad doloribus rerum as</p>
+    </div>
+
+     <div class="card">
+        <img class="img-producto" src="./img/descarga.png" alt="Mi main">
+             <p class="titulo-producto">Mandy</p> 
+        
+            esto es un parrafo, sobre mismo producto o el nombre
+             <p class="descripcion-producto"> bla bla bla Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi repudiandae ad doloribus reru </p>
+     </div>
+
+     <div class="card">
+        <img class="img-producto" src="./img/descarga.png" alt="Mi main">
+             <p class="titulo-producto">Mandy</p> 
+             
+             <p class="descripcion-producto"> bla bla bla Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi repudiandae ad doloribus reru </p>
+     </div> -->
+ 
+     <!-- TENGO KE ADAPTAR MI DIV A ESTA MIERDA DEL BOOTSTRAP -->
+    <section>
+    <div class="card" style="width: 18rem;">
+        <img src="./img/descarga.png" class="card-img-top" alt="mi main">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <a href="#" class="btn btn-primary">Mas informacion</a>
+        </div>
+    </div>
+    <div class="card" style="width: 18rem;">
+      <img src="./img/descarga.png" class="card-img-top" alt="mi main">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        <a href="#" class="btn btn-primary">Mas informacion</a>
+      </div>
+  </div>
+  <div class="card" style="width: 18rem;">
+    <img src="./img/descarga.png" class="card-img-top" alt="mi main">
+    <div class="card-body">
+      <h5 class="card-title">Card title</h5>
+      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+      <a href="#" class="btn btn-primary">Mas informacion</a>
+    </div>
+</div>
+    </section>
+
+<!-- footer -->
+        <footer class="contenedor-footer"> <!-- copyrigth ( redes sociales de la pagina, contacto,etc) --> 
+            <a href=" https://web.whatsapp.com/" target="_blank"> 
+                <i class="bx bxl-whatsapp-square icono-wsp"></i></a>
+                    <p class="copyright">copyright</p>               
+        </footer>
+
+        <section class="grid">
+            <div class="div1">1 hoal como va yo ntoy re bien estoy practicando como yusaer el teclado sinn fgver o0aaaa</div>
+            <div class="div2">2</div>
+            <div class="div3">3</div>
+            <div class="div4">4  se acomodara si escribo mucho?</div>
+        </section>
+     
+        <!-- linkd dr boobstrap JS -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script> 
+</body>
+</html>

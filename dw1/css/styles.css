@@ -1,0 +1,130 @@
+
+body {
+    font-family: Nunito, sans-serif;
+    font-weight: 500;
+    margin: 0;
+    padding: 0;
+    max-width: 90%;
+    margin: 0 auto;
+}
+/* HEADEEEER */
+.barra-de-navegacion {
+    background-color: rgb(212, 243, 212) ;
+    position:static;
+    top: 0;
+}
+
+.titulo {
+    font-size: 1.5rem;
+    font-weight: lighter;
+    color: rgb(231, 124, 199);
+    text-align: center;
+    letter-spacing: 0.1rem;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-evenly; 
+}
+/* Unidades de medida: rem, px, em, %, vw, vh*/
+    
+.link-home {
+    color: #37A43A;
+    text-decoration: none;
+    transition: all 1.5s ease;
+}
+.link-home:hover {
+    transform: scale(1.1);
+    color: #000000;
+    text-decoration: underline;
+    
+}
+
+.parrafo1 {
+    color: rgb(84, 170, 199);
+    border-radius: 20px lightskyblue;
+   
+}
+a {
+    color: #C7E7B6
+}
+/* SECTIOOOOON */
+
+.contenedor-productos {
+    display: flex;
+    justify-content:space-between;
+    align-items: end;
+    
+}
+.card {
+    width: 100px;
+    box-sizing: content-box;
+    border: solid 6px rgb(214, 252, 0);
+    border-bottom: 5%;
+    padding: 30px;
+}
+.card:hover {
+  /*    transform: translate(3px); se traslada */
+  color: #053505;
+}
+
+.img-producto{
+    width: 100px
+}
+
+.titulo-producto {
+    font-size: 2rem;
+    text-transform: uppercase;
+    color:#E9E6BE;
+}
+.descripcion-producto {
+    line-height: 2rem;
+}
+
+/* FOOOOOTEEEEER */
+.copyrigth {
+    color: #053505;
+}
+.icono-wsp {
+    color: #25d62b;
+    font-size: 50px;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    
+   
+
+}
+.icono-wsp:hover {
+    transform: rotate(100deg); 
+   
+ }
+
+
+.copyright {
+ color: rgb(4, 89, 2);
+}
+/* GRIIID ---- fr (fracciones) 25px= 1fr*/
+.grid{
+    display: grid;
+    grid-template-columns: 100px 100px;
+    grid-template-rows: 100px 100px;
+    width: 200px;
+    height: 200px;
+    column-gap: 2px;
+    row-gap: 3px;
+}
+.div1 {
+    background-color: aqua;
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+.div2 {
+    background-color: rgb(17, 99, 99);
+}
+.div3 {
+    background-color: rgb(63, 168, 133);
+}
+.div4 {
+    background-color: rgb(197, 229, 190);
+}
